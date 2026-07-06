@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+
+# Database
+*.db
+
+# Power BI Auto Save
+*.pbix.autorecover
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Models
+models/*.pkl
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
+
+# Processed Data (Optional)
+# data/processed/*.csv
