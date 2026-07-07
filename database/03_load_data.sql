@@ -1,0 +1,17 @@
+-- ==========================================================
+-- Data Loading
+-- ==========================================================
+
+-- This project uses the automated Python loader:
+--
+--     python scripts/load_to_postgres.py
+--
+-- The loader:
+-- 1. Connects to PostgreSQL
+-- 2. Truncates existing tables
+-- 3. Loads all generated CSV files
+-- 4. Validates row counts
+--
+-- PostgreSQL COPY commands have intentionally not been used
+-- because the automated Python ETL pipeline is platform-independent
+-- and preserves the predefined database schema.
