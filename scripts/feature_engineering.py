@@ -1,38 +1,3 @@
-"""
-===========================================================
-Supply Chain & Inventory Optimization Analytics Platform
-Feature Engineering Pipeline
-===========================================================
-
-Author : Vyom Mangtani
-
-Description
------------
-This script enriches the cleaned supply chain dataset by
-creating business-oriented analytical features for:
-
-• Time Intelligence
-• Shipping & Logistics
-• Financial Analytics
-• Order Analytics
-
-The enriched dataset will later be used for:
-
-1. PostgreSQL
-2. SQL Business Views
-3. KPI Generation
-4. Power BI Dashboard
-
-Input
------
-data/processed/cleaned_supply_chain.csv
-
-Output
-------
-data/processed/supply_chain_features.csv
-===========================================================
-"""
-
 # ==========================================================
 # Imports
 # ==========================================================
