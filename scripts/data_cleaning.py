@@ -1,21 +1,3 @@
-"""
-===========================================================
-Supply Chain & Inventory Optimization Analytics Platform
-Data Cleaning & Data Profiling
-===========================================================
-
-Author: Vyom Mangtani
-Project: Supply Chain & Inventory Optimization Analytics Platform
-
-Description:
-This script performs initial data profiling and cleaning on the
-DataCo Supply Chain dataset before feature engineering.
-
-Outputs:
-    data/processed/cleaned_supply_chain.csv
-===========================================================
-"""
-
 import pandas as pd
 import numpy as np
 from pathlib import Path
