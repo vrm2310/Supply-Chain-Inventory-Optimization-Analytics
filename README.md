@@ -84,6 +84,62 @@ Power BI Dashboard
 
 ## Dashboard Pages
 
+- 📊 Executive Overview
+- 📦 Product & Category Analytics
+- 👥 Customer Analytics
+- 🚚 Logistics & Fulfillment Analytics
+- 💰 Profitability & Discount Analytics
+
+## Dashboard Preview
+
+### Executive Overview
+
+Provides a high-level summary of overall business performance through key financial and operational KPIs.
+
+<p align="center">
+  <img src="assets/executive_overview.png" width="100%">
+</p>
+
+---
+
+### Product & Category Analytics
+
+Analyze product performance, category profitability, inventory prioritization, and the impact of discounts on margins.
+
+<p align="center">
+  <img src="assets/prod_cat_analytics.png" width="100%">
+</p>
+
+---
+
+### Customer Analytics
+
+Explore customer segments, customer value tiers, repeat purchasing behavior, and geographic revenue distribution.
+
+<p align="center">
+  <img src="assets/cust_analytics.png" width="100%">
+</p>
+
+---
+
+### Logistics & Fulfillment Analytics
+
+Monitor delivery performance, shipping efficiency, SLA compliance, shipping delays, and market-wise logistics performance.
+
+<p align="center">
+  <img src="assets/logi_fulfill_analytics.png" width="100%">
+</p>
+
+---
+
+### Profitability & Discount Analytics
+
+Evaluate product and category profitability, discount effectiveness, margin performance, and identify both top and least profitable products.
+
+<p align="center">
+  <img src="assets/profit_discount_analytics.png" width="100%">
+</p>
+
 ### Executive Summary
 
 - Revenue KPIs
@@ -196,29 +252,36 @@ Power BI Dashboard
 
 ---
 
-## Repository Structure
+## Project Structure
 
 ```
 Supply-Chain-Inventory-Analytics/
 │
-├── sql/
-│   ├── schema.sql
-│   ├── data_cleaning.sql
-│   ├── feature_engineering.sql
-│   ├── kpi_generation.sql
-│   ├── analytical_views.sql
-│   └── business_queries.sql
+├── assets/
+│   ├── executive_overview.png
+│   ├── prod_cat_analytics.png
+│   ├── cust_analytics.png
+│   ├── logi_fulfill_analytics.png
+│   └── profit_discount_analytics.png
 │
-├── dashboard/
-│   └── Supply Chain Analytics.pbix
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── sql/
 │
-├── screenshots/
-│   ├── Executive Summary.png
-│   ├── Product Analytics.png
-│   ├── Customer Analytics.png
-│   ├── Logistics Analytics.png
-│   └── Profitability Analytics.png
+├── notebooks/
 │
+├── powerbi/
+│   └── Supply_Chain_Analytics.pbix
+│
+├── scripts/
+│
+├── docs/
+│   ├── dashboard_design.md
+│   ├── data_dictionary.md
+│   └── data_model.md
+│
+├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
